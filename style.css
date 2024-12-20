@@ -1,0 +1,174 @@
+
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.image3 {
+    width: 30%;
+    height: 90%;
+    text-align: center;
+    background-color: rgb(248, 123, 242);
+    border: 1px solid #ccc;
+    margin: 5px 10px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    gap: 20px;
+    padding: 25px 100px 25px 100px;
+
+}
+
+.container2 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#image2{
+    height: 450px;
+    width: 500px;
+}
+
+.subimage1 {
+    height: auto;
+    width: 50%;
+    align-items: center;
+    align-content: center;
+}
+
+.headerlink1 {
+    margin-left: auto;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.headerlink2 {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.headerlink3 {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.container1 {
+    display: flex;
+    background-color: lightblue;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex: 1 1 0px;
+    width: 100%;
+}
+
+.subrow1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 0px;
+}
+
+.Title {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.paragraph {
+    margin: 0 30px 0 30px;
+    padding: 30px;
+}
+
+.carousel {
+    width: 250px;
+    height: 300px;
+}
+.imagecarousel {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding: 100px;
+    margin-top: -80px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+#button1 {
+    align-self: center;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    padding: 15px 32px 15px;
+    display: inline-block;
+    background-color: #04AA6D;
+    margin-bottom: 30px;
+}
+
+#button2 {
+    align-self: center;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    padding: 15px 32px 15px;
+    display: inline-block;
+    background-color: #04AA6D;
+    margin-bottom: 30px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgray;
+    padding: 30px 300px 30px 300px;
+    
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.subcontainer4 {
+    background-color: lightblue;
+    border-radius: 50px;
+    padding: 50px;
+    margin: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.calltoaction {
+    display: flex;
+    flex-direction: column;
+}
