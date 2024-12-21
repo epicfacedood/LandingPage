@@ -1,10 +1,21 @@
 
 
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
-
+  * {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .image3 {
@@ -21,7 +32,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: lightblue;
+    background-color: #1F2937;
     gap: 20px;
     padding: 25px 100px 25px 100px;
 
@@ -35,6 +46,7 @@ body {
 #image2{
     height: 450px;
     width: 500px;
+    margin: 0 200px 0 0;
 }
 
 .subimage1 {
@@ -48,21 +60,21 @@ body {
     margin-left: auto;
     list-style-type: none;
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
 .headerlink2 {
     list-style-type: none;
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
 .headerlink3 {
     list-style-type: none;
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
     margin-right: 10px;
 }
@@ -75,12 +87,19 @@ img {
 
 .container1 {
     display: flex;
-    background-color: lightblue;
+    background-color: #1F2937;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
     flex: 1 1 0px;
     width: 100%;
+    padding-bottom: 50px;
+}
+
+#facts {
+    font-weight: bolder;
+    font-size: 50px;
+    font-style: normal;
 }
 
 .subrow1 {
@@ -88,17 +107,20 @@ img {
     flex-direction: column;
     margin-top: 30px;
     gap: 0px;
+    padding: 0 100px 0 100px;
 }
 
 .Title {
-    font-weight: bold;
+    font-weight: 900;
     font-size: 50px;
     text-align: center;
+    color: white;
 }
 
 .paragraph {
     margin: 0 30px 0 30px;
     padding: 30px;
+    color: white;
 }
 
 .carousel {
@@ -128,7 +150,7 @@ h1 {
     font-weight: bold;
     padding: 15px 32px 15px;
     display: inline-block;
-    background-color: #04AA6D;
+    background-color: #3882F6;
     margin-bottom: 30px;
 }
 
@@ -139,7 +161,7 @@ h1 {
     font-weight: bold;
     padding: 15px 32px 15px;
     display: inline-block;
-    background-color: #04AA6D;
+    background-color: #3882F6;
     margin-bottom: 30px;
 }
 
@@ -159,16 +181,32 @@ h1 {
     background-color: white;
 }
 .subcontainer4 {
-    background-color: lightblue;
-    border-radius: 50px;
+    background-color: #3882F6;
+    border-radius: 25px;
     padding: 50px;
     margin: 50px;
-    width: 400px;
+    width: 600px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .calltoaction {
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: center;
+    
+}
+
+.footer {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px;
+}
+
+.footertext {
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
 }
